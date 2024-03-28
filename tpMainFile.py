@@ -14,7 +14,7 @@ from os.path import isfile, join
 # This one is from the tech demo on Piazza
 
 def initFileSys(app):
-    app.allFiles = [f for f in listdir("/Users/roy/Downloads/@yoosung_design/S24 Capstone/cameraDraw/submissions") if isfile(join("/Users/roy/Downloads/@yoosung_design/S24 Capstone/cameraDraw/submissions", f))]
+    app.allFiles = [f for f in listdir("/Users/roy/Downloads/@yoosung_design/S24 Capstone/cameraDraw2/submissions") if isfile(join("/Users/roy/Downloads/@yoosung_design/S24 Capstone/cameraDraw2/submissions", f))]
 
 def fileSysAppend(app, name):
     app.allFiles.append(f'{name}.png')
