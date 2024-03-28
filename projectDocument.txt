@@ -1,0 +1,33 @@
+Yoo Sung Lee
+15112 Section P
+
+##Project Proposal##
+
+Project Description:
+
+    An image drawing software that is referencing frames from either images or video.
+    It includes features like brush types, sizes, color, eraser, and flood fill.
+
+TP 1 Update: 
+
+- Implemented drawing system based on images
+- Brush size increase/decrease
+- Switch from drawing mode to erasing mode
+- Switch images that you are drawing based off
+
+TP 2 Update: 
+
+- Improved drawing algo (WAY SMOOTHER)
+- Organized my code into OOP (3 different files)
+- Included 3 different brush shapes that can be changed for drawing (updates the preview shape too)
+- Includes 3 different brush shapes for eraser as well 
+- A save image feature with unique naming conventions to keep track of different sessions
+- Ability to color (currently hard-coded to one specific brush and color but will be modifiable in the future)
+- Almost done writing the flood fill feature
+
+TP 3 Update:
+
+-Nothing working updated as of now.
+
+
+
