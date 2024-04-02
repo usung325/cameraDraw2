@@ -188,6 +188,8 @@ class ImageClass():
             image = Image.open(image_path)
             image = image.convert("L")  # Convert to grayscale
             image = image.convert('1', dither=Image.Dither.FLOYDSTEINBERG)  # Apply dithering
+
+
             image= image.resize((60, 80))
             app.libImDict[file] = CMUImage(image)  # Store the processed image
         print(f'this is it{app.libImDict}')
